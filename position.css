@@ -1,0 +1,59 @@
+.el-1{
+    background-color: darkgreen;
+    height: 200px;
+}
+
+.el-2{
+    background-color: darkred;
+    height: 200px;
+    position: relative;
+    left: 20px;
+    top: 50px;
+}
+
+.el-3{
+    background-color: darkmagenta;
+    height: 200px;
+}
+
+.el-4{
+    background-color: violet;
+    height: 200px;
+    width: 50px;
+    position: fixed;
+    left: 20px;
+    top: 50px;
+}
+
+.el-5{
+    background-color: blueviolet;
+    height: 200px;
+}
+
+.el-6{
+    background-color: lightseagreen;
+    height: 400px;
+    position: relative;
+}
+
+.el-7{
+    background-color: blue;
+    height: 200px;
+    position: absolute;
+    /*width: 200px;*/
+    left: 20px;
+    top: 100px;
+    right: 50px;
+
+}
+
+.el-8{
+    background-color: lightslategray;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+
+

@@ -1,0 +1,23 @@
+.first-el{
+    background-color: blue;
+    color: white;
+    width: 300px;
+}
+
+.second-el{
+    background-color: green;
+    color: white ;
+    width: 300px;
+}
+
+.third-el{
+    background-color: darkorange;
+    width: 300px;
+    display: block;
+}
+
+.fourth-el{
+    background-color: red;
+    width: 300px;
+    display: inline-block;
+}
