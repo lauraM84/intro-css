@@ -1,0 +1,36 @@
+*{ /* regola valida per tutto a seguire */
+    border: solid red;
+    box-sizing: border-box; /*per evitare che lavori sul contenuto invece che sulla box */
+}
+
+.mother{
+    /* height: 600px; */
+    padding: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px; /*dare spazio agli elementi nel flex; */
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+} 
+
+.son{
+    height: 292px; 
+    width: 300px;
+    min-width: 200px;
+}
+
+.green{
+    background-color: green;
+    /* flex-grow: 1;
+    flex-basis: 0; */
+     order: 2;   /*per dare un ordine ai contenuti, di default hanno zero */
+}
+
+.red{
+    background-color: red;
+    font-size: xx-large;
+    /* flex-grow: 5;
+    flex-basis: 0; */
+    order: 1;
+}
