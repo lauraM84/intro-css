@@ -22,7 +22,7 @@
 
 .green{
     background-color: green;
-    /* flex-grow: 1;
+    /* flex-grow: 1; dà alle colonne lo spazio totale diviso per elementi (es 1/3) 
     flex-basis: 0; */
      order: 2;   /*per dare un ordine ai contenuti, di default hanno zero */
 }
